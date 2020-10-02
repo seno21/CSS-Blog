@@ -136,7 +136,7 @@ body {
 }
 
 .container {
-  width: 800px;
+  width: 900px;
   margin: auto;
   background-color: #eee;
 }
@@ -169,7 +169,7 @@ a:hover {
 }
 
 .jumbotron {
-  height: 250px;
+  height: 350px;
   background-image: url(img/gambar.png);
   background-size: cover;
   background-position: 0 -90px;
@@ -179,7 +179,29 @@ a:hover {
 
 .content {
   padding: 20px;
+  text-align: justify;
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: 66% auto;
 }
+.content .archive {
+  padding: 10px;
+  margin-bottom: 5px;
+}
+
+.content .archive ul li {
+  padding-left: 15px;
+  font-size: 14px;
+}
+
+.archive .iklan {
+  background-image: url("img/iklan.jpg");
+  background-position: center;
+  background-size: cover;
+  border-radius: 5px;
+  height: 250px;
+}
+
 .content h1 {
   font-size: 20px;
   font-weight: bold;
